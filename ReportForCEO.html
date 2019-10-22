@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Sales Data Analysis of McDonald's By Shuliang Mai</title>
+    </head>
+    <style type="text/css">
+    body {
+    background: url("McDonalds.jpeg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;}
+    </style>
+    <body>
+        <h1 align="center", style="color:yellow;">Sales Data Analysis of McDonald's By Shuliang Mai</h1>
+
+        <p align="center"><a style="color:yellow;", href="https://github.com/maishuliang/DSC106-HW2/blob/master/PDFforCEO.pdf">Link for CEO to Download the Analyze</a></p>>
+        <p align="center", style="color:yellow;">Dear CEO, for the purpose of analyzing the impact that Burger King has made on us we should
+        started compare the performance</br> of the sales date after Burger King started selling the Impossible Burger. Since the Burger started on last
+        Octomber, we want to</br> compare the performance from the same month on past year to Sep of the following year, let's make these comparison.</p>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <div id="container1" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto">
+        <script src="year_comparision.js"></script>
+        </div>
+
+        <p align="center", style="color:yellow;">From the graphs we can saw that from the Oct.2016-Sep.2017 to Oot.2016-Sep.2017 there is an bettere performance on the</br> 
+        total sales of each month for the later year. Everything seems doing well before the Oct of last year. We can see that there</br>
+        is indeed a decrease from the same month of 2017 and thereafter. </p>
+
+        <p align="center", style="color:yellow;">Now let's look at which categories of hamburger brings the most difference between these two years.</p>
+
+        
+        <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto">
+
+        <pre id="csv" style="display:none">"Month, Year", "Hamburger(2017-2018)", "Chicken Fillet(2017-2018)", "Fish Fillet(2017-2018)", "Hamburger(2018-2019)", "Chicken fillet(2018-2019)", "Fish fillet(2018-2019)"
+            Oct, 7170291,2987291,1806878,6781234,2862020,1730781,
+            Nov, 7549336,3096246,1887120,7386402,3052314,1860819,
+            Dec, 7707776,3186172,1942176,6954506,2874069,1710520,
+            Jan, 7887763,3234631,1926117,7568561,3128423,1861751,
+            Feb, 7990228,3328733,2028810,7350256,3061564,1866627,
+            Mar, 7654312,3139645,1883343,7267799,3003545,1802980,
+            Apr, 7947352,3285062,2019461,7317841,3073157,1859086,
+            May, 8186393,3438398,2063039,7620829,3175075,1890213,
+            Jun, 7629715,3256752,1954050,7124175,2921766,1752262,
+            Jul, 8012517,3338673,1987216,6956441,2852679,1738859,
+            Aug, 8060250,3467244,2014826,7190660,2995435,1768857,
+            Sep, 7922921,3327230,1997118,7142860,3023767,1815026,</pre>
+
+        <script src="categories.js"></script>
+    </div>
+    <p align="center", style="color:yellow;">It seems like the Hamburger decrease the most by just looking at the graphs comparison between these 2 years. However, </br>
+    If we calculate the percentage, we see every category decreased by about 1/8 without clear difference. It potentially telling us</br> that this might becuase</p>
+
+    <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto">
+            <script src="geo_cols_HM.js"></script>
+    </div>
+    <div id="container3" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto">
+            <script src="geo_cols_FF.js"></script>
+    </div>
+    <div id="container4" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto">
+            <script src="geo_cols_CF.js"></script>
+    </div>
+</body>
+</html>
+
